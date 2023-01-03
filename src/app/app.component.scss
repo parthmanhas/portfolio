@@ -1,0 +1,48 @@
+.hello,
+.name,
+.headline {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-experience {
+  height: 250vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    padding-top: 1.5rem;
+  }
+
+  &__section-1 {
+    width: 100%;
+    padding: 2rem;
+    &--position {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.word-experience {
+  height: 200vh;
+}
+
+.hello h1 {
+  font-size: 15rem;
+}
+
+.name h1 {
+  font-size: 18rem;
+}
+
+.headline h1 {
+  padding: 1.5rem;
+}
