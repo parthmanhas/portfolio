@@ -1,9 +1,0 @@
-<div class="project" (click)="openExternalLink()" [class.project-link-active]="project.link">
-    <div class="project__img">
-        <img alt="" [src]="project.imgUrl">
-    </div>
-    <div *ngIf="!project.empty" class="project__info">
-        <h1 class="m">{{project.name}}</h1>
-        <p class="s">{{project.technologiesUsed}}</p>
-    </div>
-</div>
