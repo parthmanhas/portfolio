@@ -6,7 +6,7 @@
     width: min(40vw, 500px);
     background-color: $grey;
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     margin-bottom: 5vw;
     // margin-bottom: 5rem;
     // @media screen and (max-width: 460px) {
@@ -39,5 +39,12 @@
         p {
             text-transform: uppercase;
         }
+    }
+}
+
+.project-link-active {
+    cursor: pointer;
+    img {
+        width: 100%;
     }
 }

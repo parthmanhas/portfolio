@@ -13,11 +13,17 @@ export class ProjectComponent {
     ngOnInit() {
         this.project.imgUrl = this.project.imgUrl || '../../assets/cone.png';
     }
+
+    openExternalLink(): void {
+        if (!this.project.link) return;
+        window.open(this.project.link, '_blank');
+    }
 }
 
 export interface IProject {
     name?: string;
     technologiesUsed?: string;
     imgUrl?: string;
+    link?: string,
     empty: boolean;
 }

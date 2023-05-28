@@ -47,7 +47,13 @@ export class HomeComponent {
     ]
 
     public projects: IProject[] = [
-        { empty: true },
+        {
+            name: 'Kanban Task Management App',
+            technologiesUsed: 'Angular,NgRx',
+            imgUrl: 'assets/kanban-task.PNG',
+            empty: false,
+            link: 'https://beautiful-fenglisu-74d90d.netlify.app/'
+        },
         { empty: true }
     ];
 
