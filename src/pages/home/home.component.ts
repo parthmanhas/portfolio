@@ -54,7 +54,13 @@ export class HomeComponent {
             empty: false,
             link: 'https://beautiful-fenglisu-74d90d.netlify.app/'
         },
-        { empty: true }
+        {
+            name: 'Invoice App',
+            technologiesUsed: 'Angular,RxJS,TailwindCSS',
+            imgUrl: 'assets/invoice-app.PNG',
+            empty: false,
+            link: 'https://luxury-conkies-443a7a.netlify.app/'
+        },
     ];
 
 }
