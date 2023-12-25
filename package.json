@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run tailwind:compile && ng build",
+    "build": "npm run tailwind:compile && ng build  && cp -r dist/* ../portfolio-dist/ && git checkout dist && cp -rf ../portfolio-dist/* . && git add . && git commit -m 'build' && git push && git checkout main",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "tailwind:compile": "npx tailwindcss -i ./src/styles.css -o ./src/tailwind.css"
